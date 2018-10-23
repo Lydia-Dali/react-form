@@ -1,32 +1,36 @@
-.App {
+body{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/158/259/original/silent-film-background-vector.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.App{
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.FormMovie {
+  width: 475px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #eae2f1d1;
+  margin-top: 292px;  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ 
+ .FormMovie h1 {
+  text-align: center;
+ }
+ 
+ .FormMovie .form-data {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  margin: 5px 0;
+ }
+ 
+ .FormMovie .form-data label {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+  text-align: right;
+ }
+ 
+ .FormMovie .form-data input:not([type="submit"]) {
+  flex-grow: 1;
+ }
